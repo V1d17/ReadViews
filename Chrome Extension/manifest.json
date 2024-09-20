@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "ReadViews AI",
+    "version": "1.0",
+    "description": "A Chrome extension that allows you to talk to reviews on the web.",
+    "permissions": ["activeTab", "storage", "scripting", "tabs"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "256": "images/icon256.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": [
+        "http://127.0.0.1:5000/*"
+    ]
+
+  }
+  

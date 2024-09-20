@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <div id="chat-page" class="chat-container">
+    <div class="chat-header">
+      ReadViews
+    </div>
+    <div id="restaurant-name"></div>
+    <div id="chat-box" class="chat-box"></div>
+    <div class="input-container">
+      <input type="text" id="chat-input" placeholder="Type a message..." autocomplete="off">
+      <button id="send-button">
+        <i class="material-icons send-icon">arrow_upward</i>
+      </button>
+    </div>
+    <div id="loading-overlay">
+      <div class="loading-circle"></div>
+    </div>
+    <div id="error-overlay"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
+
