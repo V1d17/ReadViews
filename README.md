@@ -12,3 +12,6 @@ To address this issue, I created Readviews, which extracts essential metadata su
 reviews, and utilizes RAG-based LLM to provide users with precise information based on their queries.
 
 **Demo**
+
+https://github.com/user-attachments/assets/6a9867c6-f737-4292-a7d6-3f4227fb7b2b
+
